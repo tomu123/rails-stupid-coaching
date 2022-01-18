@@ -1,0 +1,58 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.answer-page {
+  font-family: "Courier New", Courier, monospace;
+  h1 {
+    font-weight: 500;
+  }
+  .answer-container {
+    background-color: #fffee1;
+  }
+  .answer-container,
+  .question-container {
+    border-left: solid #6e6e6e;
+    padding: 8px 15px;
+    margin: 25px 0;
+    .author {
+      font-style: italic;
+    }
+  }
+  .question-page-link {
+    display: inline-block;
+
+    text-decoration: none;
+    color: rgb(65, 65, 238);
+  }
+}
+
+.ask-page {
+  font-family: "Courier New", Courier, monospace;
+  h1 {
+    font-weight: 500;
+  }
+  .question-form-control {
+    width: 40vw;
+    height: 5vh;
+    display: flex;
+    .question-input {
+      flex: 14 0 0;
+      font-size: large;
+      padding-left: 15px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border: solid 1px rgb(158, 157, 157);
+    }
+    .submit-input {
+      flex: 1 0 0;
+      font-size: large;
+      padding: 8px;
+      background-color: #337ab7;
+      color: whitesmoke;
+      font-weight: 600;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border: solid 1px rgb(158, 157, 157);
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<div class="answer-page">
+  <h1>Stupid Coaching</h1>
+  <div class="question-container">
+    <p class="question"><%= @question %></p>
+    <p class="author">--You</p>
+  </div>
+  <div class="answer-container">
+    <p class="answer"><%= @answer %></p>
+    <p class="author">--Your coach</p>
+  </div>
+  <%= link_to "Question Page",questions_ask_path, class: "question-page-link" %>
+</div>
